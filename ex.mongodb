@@ -1,0 +1,8 @@
+use("test");
+db.places.insertMany([
+  { name: "ดอยสุเทพ", region: "ภาคเหนือ", joined: 2564 },
+  { name: "วัดร่องขุน", region: "ภาคเหนือ", joined: 2565 },
+  { name: "วัดหลวง", region: "ภาคเหนือ", joined: 2566 },
+  { name: "วัดโพธิ์", region: "ภาคกลาง", joined: 2565 },
+  { name: "แหลมพรหมเทพ", region: "ภาคไต้", joined: 2566 },
+]);
