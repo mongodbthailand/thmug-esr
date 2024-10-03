@@ -4,4 +4,4 @@ db.places.createIndex({ name: 1, region: 1 })
 // Better
 db.places.createIndex({ region: 1, name: 1 })
 // Test
-db.places.find({ region: "AMER" }).sort({ name: 1 })
+db.places.find({ region: "ภาคเหนือ" }).sort({ name: 1 })
