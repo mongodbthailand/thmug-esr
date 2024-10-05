@@ -1,0 +1,3 @@
+use("test")
+
+db.places.find({ region: "ภาคเหนือ" }, {'region':1, _id:0}).sort({ name: 1 })
